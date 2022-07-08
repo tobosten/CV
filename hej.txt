@@ -1,0 +1,20 @@
+ Skapade en kalkylator med React.js som räknade ut annuitetslån.
+ Sedan skapade jag och en annan praktikant wireframes med hjälp av Figma.
+ Vi hade fått två pdf-filer med vyer och entiteter som vi gick efter.
+ Började även utveckla appen vi skapade wireframes på i React Native i slutet
+ av perioden.
+
+
+Byggde upp appen från grunden från tidigare period i React Native med Javascript. 
+Under denna period hade vi även en dedikerad backend som skapade endpoints. 
+Dessa endpoints kunde vi använda lokalt med hjälp av Docker. Versionshantering i BitBucket.
+
+
+
+
+
+Jag har precis tagit examen som en Applikationsutvecklare från
+                                    <a href={univertityUrl} target="blank" className='universityLink'>IT-Höskolan</a>
+                                    i Stockholm. Gillar att utveckla intressanta applikationer med React Native men även hemsidor med React.js.
+                                    React Native har jag mer erfarenhet av då jag arbetade med under hela andra perioden av min praktik.
+                                    Som preson är jag både glad, trevlig och hjälpsam då jag gärna hjälper till min bästa förmåga om det uppstått något problem.

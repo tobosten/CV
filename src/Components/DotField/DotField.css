@@ -1,0 +1,33 @@
+.fieldContainer {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionTitle {
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.dotContainer {
+    /* border: 1px solid black; */
+    width: 10px;
+}
+
+.dot {
+    background-color: black;
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 14px;
+}
