@@ -1,2 +1,12 @@
 
+.bottomBar {
+    /* display: flex;
+    flex: 1; */
+    height: 1px;
+    /* border: 1px solid black; */
+    box-shadow: 1px -1px 4px gray;
+}
 
+.randomBorder {
+    border: 1px solid #FAFAFA;
+}

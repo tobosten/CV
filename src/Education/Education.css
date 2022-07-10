@@ -1,0 +1,65 @@
+
+
+.mainEducationContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin: 5rem;
+    
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+}
+
+
+.educationTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.appdevEducationContainer {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.educationDate {
+    font-size: 12px;
+    color: gray;
+}
+
+.listItem {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.regularText {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+.educationCard {
+    width: 90%;
+    align-self: center;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px gray;
+}
+
+
+.periodText {
+   font-size: 16px;
+    margin-left: 10px;
+}
+
+
+.underscore {
+    text-decoration: underline;
+}

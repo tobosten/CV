@@ -1,0 +1,28 @@
+.screenFieldContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+}
+
+.screenFieldText {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.screenFieldGif {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loiGif {
+    height: 30rem;
+}

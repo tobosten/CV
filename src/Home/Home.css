@@ -1,0 +1,64 @@
+.mainContainer {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    background-color: #FAFAFA;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.introduction {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 12rem 0rem 12rem 10rem;
+
+}
+
+.aboutButton {
+    font-size: 20px;
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 110px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 1px 2px 9px gray;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imageContainer {
+    flex: 1;
+    /* border: 1px solid black; */
+    align-self: center;
+
+}
+
+
+.meImage {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    background-color: lightgray;
+    border-radius: 500px;
+    box-shadow: 1px 0px 5px black;
+
+}
+
+.mediaLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 1px 1px 4px gray;
+    margin-right: 15px;
+}

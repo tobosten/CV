@@ -1,4 +1,3 @@
-import { toBePartiallyChecked } from '@testing-library/jest-dom/dist/matchers'
 import React from 'react'
 import Experiences from '../Components/Experiences/Experiences'
 import DotField from '../Components/DotField/DotField'
@@ -17,7 +16,7 @@ function CV() {
 
 
     return (
-        <div style={{ backgroundColor: "#F4F4F4", marginTop: -20, paddingTop: 20 }} className="z-depth-1">
+        <div style={{ backgroundColor: "#F4F4F4", display: "flex", flexDirection: "row" }}>
             <div className='cvContainer' >
                 <div className='topContainer'>
                     <div className="characterContainer">
@@ -130,6 +129,10 @@ function CV() {
                         }
                     />
                 </div>
+            </div>
+
+            <div className='rightContainer'>
+                
             </div>
         </div>
     )
