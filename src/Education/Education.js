@@ -15,7 +15,7 @@ function Education() {
             </div>
 
             <div className='educationCard'>
-                <div className='educationTitle'>Application development, <a href={ithref} target="blank">IT Högskolan</a>, Stockholm <br />
+                <div className='educationTitle'>Application development, <a href={ithref} target="_blank">IT Högskolan</a>, Stockholm <br />
                     <div className="educationDate">August 2020 - June 2022</div>
                 </div>
                 <div className='appdevEducationContainer'>
@@ -82,13 +82,13 @@ function Education() {
             </div>
             <div className='educationCard'>
                 <div className='educationTitle'>
-                    Math 2C + 3B, <a href={komvuxhref} target="blank1">Åsö Komvux</a>, Stockholm <br />
+                    Math 2C + 3B, <a href={komvuxhref} target="_blank">Åsö Komvux</a>, Stockholm <br />
                     <div className="educationDate">August 2019 - May 2020</div>
                 </div>
             </div>
             <div className='educationCard'>
                 <div className='educationTitle'>
-                    Data and Communication, <a href={ntihref} target="blank2">NTI Gymnasiet</a><br />
+                    Data and Communication, <a href={ntihref} target="_blank">NTI Gymnasiet</a><br />
                     <div className="educationDate">August 2019 - May 2020</div>
                 </div>
             </div>

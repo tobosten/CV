@@ -1,37 +1,60 @@
 import React from 'react'
 import "./Home.css"
-import LakeImg from "../assets/lake.png"
+import Background from "../assets/HomeBackground/hexawhite.webp"
 
 function Home() {
-    /* style={{ backgroundImage: `url(${LakeImg})` }} */
     return (
-        <div className='mainContainer'>
+        <div className='homeMainContainer' style={{ /*  backgroundImage: `url(${Background})` */  }}>
+
+            <div className='homeInfoContainer'>
+                <div className='homeLeftInfo'>
+                    <div>
+                        <h1>Hello!<br /> My name it Tobias Österlin</h1>
+                        <h3 style={{ fontSize: 20, marginTop: -15 }}>I do development with React Native and React.js</h3>
+                        <div className='mediaLinksContainer'>
+
+                            <a className='separateLinkContainer' href='https://www.linkedin.com/in/tobias-%C3%B6sterlin-988196183/' target="_blank">
+                                <img src={require("../assets/linkedInLogo.png")} style={{ height: 40 }} />
+                            </a>
+                            <a className='separateLinkContainer' href='https://github.com/tobosten?tab=repositories' target="_blank">
+                                <img src={require("../assets/githubLogo.png")} style={{ height: 40 }} />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className='homeRightInfo'>
+                    <div className='meImageContainer'>
+                        <img src={require("../assets/Me.jpg")} className="meImage" />
+                    </div>
+                </div>
+            </div>
+
+
+            {/* 
             <div className='topContainer'>
-                <h1 className='introduction'>Hello! <br />
-                    My name is Tobias Österlin <br />
-                    <div style={{ fontSize: 20, marginTop: 10 }}>
-                        I do development with React Native and React.js
+                <div className="introductionContainer">
+                    <div className='introduction'>
+                        <h1>Hello! <br /> My name is Tobias Österlin</h1>
+                        <h3 style={{ fontSize: 20, marginTop: -15 }}>I do development with React Native and React.js</h3>
+                        <div className='linksContainer'>
+                            <a href='https://www.linkedin.com/in/tobias-%C3%B6sterlin-988196183/' target="_blank"
+                                className='mediaLinks'>
+                                <img src={require("../assets/linkedInLogo.png")} style={{ height: 40 }} />
+                            </a>
+
+                            <a href='https://github.com/tobosten?tab=repositories' target="blank"
+                                className='mediaLinks'>
+                                <img src={require("../assets/githubLogo.png")} style={{ height: 40 }} />
+                            </a>
+                        </div>
                     </div>
-
-                    <div className='linksContainer'>
-                        <a href='https://www.linkedin.com/in/tobias-%C3%B6sterlin-988196183/' target="blank"
-                            className='mediaLinks'>
-                            <img src={require("../assets/linkedInLogo.png")} style={{ height: 40 }} />
-                        </a>
-
-                        <a href='https://github.com/tobosten?tab=repositories' target="blank"
-                            className='mediaLinks'>
-                            <img src={require("../assets/githubLogo.png")} style={{ height: 40 }} />
-                        </a>
-                    </div>
-
-                </h1>
+                </div>
                 <div className="imageContainer">
                     <div className='meImage'>
                         <img src={require("../assets/Me.jpg")} className="meImage" />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

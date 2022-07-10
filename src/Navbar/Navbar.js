@@ -5,9 +5,8 @@ import "./Navbar.css"
 function Navbar() {
 
     return (
-        <div className='navbarContainer' style={{ backgroundImage: `url()` }}>
+        <div className='navbarContainer'>
             <div className='navbar'>
-
                 <div className='navbarLeftContainer'>
                     My Page
                 </div>
