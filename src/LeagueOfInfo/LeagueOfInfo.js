@@ -5,6 +5,12 @@ function LeagueOfInfo() {
     return (
         <div>
             <div className='screenFieldContainer'>
+                <div className="leagueofinfoTitle">League of Info</div>
+                <div style={{ display: "flex", flexDirection: "row" }}>
+                    <div className='leagueofinfoLinkField'>Project is on <a href='https://github.com/tobosten/LeagueOfInfo' target="_blank">GitHub</a></div>
+                    <img src={require("../assets/handLeftPoint.png")} style={{ height: 20, width: 25, marginLeft: 10 }} />
+                </div>
+
                 <div className='viewsContainer'>
                     <div className='screenFieldText'>
                         First shown screen. Search for any user within the selected regions (EUW and EUNE). <br />

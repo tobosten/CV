@@ -15,7 +15,7 @@ function Navbar() {
                     {/* <div>About</div> */}
                     <Link to="/education" style={{ textDecoration: "none", color: "black" }} className="link navbarLinks">Education</Link>
                     <Link to="/work" style={{ textDecoration: "none", color: "black" }} className="link navbarLinks">Work</Link>
-                    <div>Contact</div>
+                    <div style={{ textDecoration: "line-through" }}>Contact</div>
                 </div>
             </div>
         </div >
