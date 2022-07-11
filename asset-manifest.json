@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f39b081.css",
+    "main.js": "/static/js/main.8d126847.js",
+    "static/js/787.32e1ec3b.chunk.js": "/static/js/787.32e1ec3b.chunk.js",
+    "static/media/matchHistory.gif": "/static/media/matchHistory.72249aa19b3b7b9c6981.gif",
+    "static/media/champSearch.gif": "/static/media/champSearch.59fbb0bcf630af096710.gif",
+    "static/media/champDetails.gif": "/static/media/champDetails.19dcb5e2b3d74c3a1456.gif",
+    "static/media/login.gif": "/static/media/login.3ec98ab673ad86dace6f.gif",
+    "static/media/LeagueOfInfo.gif": "/static/media/LeagueOfInfo.988565fdf0e9e67aef4d.gif",
+    "static/media/userDetails.gif": "/static/media/userDetails.b1672947c5bc42d3f6eb.gif",
+    "static/media/Me.jpg": "/static/media/Me.5fdc6acd8d286e90c65a.jpg",
+    "static/media/hexawhite.webp": "/static/media/hexawhite.37835b4781c49bb46c37.webp",
+    "index.html": "/index.html",
+    "main.2f39b081.css.map": "/static/css/main.2f39b081.css.map",
+    "main.8d126847.js.map": "/static/js/main.8d126847.js.map",
+    "787.32e1ec3b.chunk.js.map": "/static/js/787.32e1ec3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f39b081.css",
+    "static/js/main.8d126847.js"
+  ]
+}
