@@ -1,7 +1,7 @@
 .screenFieldContainer {
     display: flex;
     flex-direction: column;
-    margin: 5rem;
+    padding: 5rem;
 }
 
 .screenFieldText {

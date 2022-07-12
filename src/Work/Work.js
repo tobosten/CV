@@ -9,7 +9,7 @@ function Work() {
                 <ProjectComponent
                     title="League of Info"
                     src={require("../assets/LeagueOfInfo.gif")}
-                    link={"/work/leagueofinfo"}
+                    link={"/leagueofinfo"}
                 />
             </div>
         </div>
