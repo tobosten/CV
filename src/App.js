@@ -14,6 +14,7 @@ function App() {
     <Router>
       <Navbar />
       <div className='container'>
+        <Home />
         <Switch>
           <Route exact path="/">
             <Home />
