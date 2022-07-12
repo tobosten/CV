@@ -35,7 +35,7 @@ function Education() {
                             Built API from scratch using C# and mySQL.
                         </li>
                         <li className='listItem'>
-                            Version control with Git. Have worked Bitbucket and GitHub.
+                            Version control with Git. Have worked with Bitbucket and GitHub.
                         </li>
                     </ul>
 
@@ -43,15 +43,15 @@ function Education() {
                     <div>
                         <div className='periodText'>Period 1</div>
                         <ul >
-                            <li className='listItem' >Create a kalkylator with <span className='underscore'>React.js</span> that kalkylated
+                            <li className='listItem' >Create a calculator with <span className='underscore'>React.js</span> that calculated
                                 annuity loans when purchasing a car per month, <br />
                                 with selectable price, interest and installment period
                             </li>
                             <li className='listItem'>
-                                Create a UX design for an app with Figma that was based around demands.
+                                Create a UX design for an app with Figma that was based around customer demands.
                             </li>
                             <li className='listItem'>
-                                Start developing the app above with <span className='underscore'>React Native</span> in an existing base another employee created.
+                                Starting to develop the app above with <span className='underscore'>React Native</span> in an existing base another employee created.
                             </li>
                         </ul>
                         <div className='periodText'>Period 2</div>
@@ -60,11 +60,11 @@ function Education() {
                                 Permission to build the same app from the ground up using <span>React Native</span>.
                             </li>
                             <li className='listItem'>
-                                Work in a team with app, webb and backend developers. And learnt that good communication between <br />
+                                Worked in teams with app, webb and backend developers, and learned that good communication between <br />
                                 front and backend is mandatory.
                             </li>
                             <li className='listItem'>
-                                Use <span className='underscore'>Docker</span> to use API locally from backend.
+                                <span className='underscore'>Docker</span> to use endpoints from API locally.
                             </li>
                             <li className='listItem'>
                                 Versioncontrol in <span className='underscore'>BitBucket</span>.
