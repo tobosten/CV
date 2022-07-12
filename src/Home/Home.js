@@ -8,7 +8,7 @@ function Home() {
             <div className='homeInfoContainer'>
                 <div className='homeLeftInfo'>
                     <div>
-                        <h1>Hello!<br /> My name it Tobias Österlin</h1>
+                        <h1>Hello!<br /> My name is Tobias Österlin</h1>
                         <h3 style={{ fontSize: 20, marginTop: -15 }}>I do development with React Native and React.js</h3>
                         <div className='mediaLinksContainer'>
 
