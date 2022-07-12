@@ -6,16 +6,20 @@ function LeagueOfInfo() {
         <div>
             <div className='screenFieldContainer'>
                 <div className="leagueofinfoTitle">League of Info</div>
+
                 <div style={{ display: "flex", flexDirection: "row" }}>
                     <div className='leagueofinfoLinkField'>Project is on <a href='https://github.com/tobosten/LeagueOfInfo' target="_blank">GitHub</a></div>
                     <img src={require("../assets/handLeftPoint.png")} style={{ height: 20, width: 25, marginLeft: 10 }} />
                 </div>
+                <div className='leagueofinfoUnderTitleText'>The app is optimized to do a limited abount of fetches because the API had a <br />
+                    limited if fetches, 20 every other second.
+                </div>
 
                 <div className='viewsContainer'>
                     <div className='screenFieldText'>
-                        First shown screen. Search for any user within the selected regions (EUW and EUNE). <br />
-                        Fetches the searched user from the API and uses AsyncStorage to store their name <br />
-                        for faster search on that account next time.
+                        First shown screen. User can search for any summoner(game user) within the selected regions (EUW and EUNE). <br />
+                        Fetches the searched summoner from an API and uses AsyncStorage to store their summoner name. <br />
+                        User is able to instantly search for the previous summoner with a press of a button.
                     </div>
                     <div className="screenFieldGif">
                         <img src={require("../assets/loiGifs/login.gif")} className="loiGif" />
@@ -29,8 +33,8 @@ function LeagueOfInfo() {
                         <img src={require("../assets/loiGifs/userDetails.gif")} className="loiGif" />
                     </div>
                     <div className='screenFieldText'>
-                        In this screen the user can see basic information from the searched user. Name, icon, level, border, rank and their <br />
-                        most played character. The border changes depending on which level the user has reaches. All information of the user is stored as
+                        In this screen the user can see basic information about the summoner. Name, icon, level, border, rank and their <br />
+                        most played character. The border changes depending on which level they have reached. All information of the user is stored as
                         an object in a Context state.
                     </div>
                 </div>
@@ -39,8 +43,9 @@ function LeagueOfInfo() {
 
                 <div className='viewsContainer'>
                     <div className='screenFieldText'>
-                        Here the user can scroll through all existing characters in the game, and select a specifik one for additional information.<br />
-                        You are also able to search for your character, and use the "?" button for instructions to reset the list. <br />
+                        Here the user can scroll through all existing characters in the game, and select a specific one for additional information.<br />
+                        The user is also able to search for a specific character in this screen. Pressing the search button an additional time will reset the
+                        list to its original state, if you need help to reset the list you can click on the "?" button in the top right. <br />
                         All images are stored locally in an object.
                     </div>
                     <div className="screenFieldGif">
