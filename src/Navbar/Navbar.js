@@ -11,7 +11,7 @@ function Navbar() {
                     My Page
                 </div>
                 <div className='navbarRightContainer'>
-                    <Link to="/" style={{ textDecoration: "none", color: "black" }} className="link navbarLinks" >Home</Link>
+                    <Link to="/Site/" style={{ textDecoration: "none", color: "black" }} className="link navbarLinks" >Home</Link>
                     {/* <div>About</div> */}
                     <Link to="/education" style={{ textDecoration: "none", color: "black" }} className="link navbarLinks">Education</Link>
                     <Link to="/work" style={{ textDecoration: "none", color: "black" }} className="link navbarLinks">Work</Link>
