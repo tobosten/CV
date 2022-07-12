@@ -12,13 +12,13 @@ function LeagueOfInfo() {
                     <img src={require("../assets/handLeftPoint.png")} style={{ height: 20, width: 25, marginLeft: 10 }} />
                 </div>
                 <div className='leagueofinfoUnderTitleText'>The app is optimized to do a limited abount of fetches because the API had a <br />
-                    limited if fetches, 20 every other second.
+                    limited of fetches.
                 </div>
 
                 <div className='viewsContainer'>
                     <div className='screenFieldText'>
-                        First shown screen. User can search for any summoner(game user) within the selected regions (EUW and EUNE). <br />
-                        Fetches the searched summoner from an API and uses AsyncStorage to store their summoner name. <br />
+                        First shown screen. User can search for any summoner (game user) within the selected regions (EUW and EUNE). <br />
+                        Fetches the searched summoner from an API and stores them in a Context state, then stores the summoner name in AsyncStorage. <br />
                         User is able to instantly search for the previous summoner with a press of a button.
                     </div>
                     <div className="screenFieldGif">
@@ -61,7 +61,7 @@ function LeagueOfInfo() {
                         <img src={require("../assets/loiGifs/champDetails.gif")} className="loiGif" />
                     </div>
                     <div className='screenFieldText'>
-                        This screen is shown when the user has selected a character from the search screen, in this case they choose Jhin.<br />
+                        This screen is shown when the user has selected a character from the previous screen, in this case they choose the character Jhin.<br />
                         Here the user sees additional information on the selected champion. When entering this screen it starts fetching the current
                         character's data and saves the json into an object.
                     </div>
@@ -73,7 +73,7 @@ function LeagueOfInfo() {
                 <div className='viewsContainer'>
                     <div className='screenFieldText'>
                         Shows all 10 latest matched played on the account, and additional 9 if the user presses the "More Matches" button.<br />
-                        Everything in this screen is fetching data from the API, except for the character image. Each card displays basic information from
+                        Everything in this screen is fetching data from the API, except for the characters image. Each card displays basic information from
                         each match. For example, if they won or lost, played character and items purchased.
                     </div>
                     <div className="screenFieldGif">
