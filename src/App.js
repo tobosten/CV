@@ -27,7 +27,7 @@ function App() {
             <Education />
           </Route>
 
-          <Route path="/leagueofinfo">
+          <Route path="/work/leagueofinfo">
             <LeagueOfInfo />
           </Route>
         </Switch>
