@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Site/static/css/main.633f1713.css",
-    "main.js": "/Site/static/js/main.270b90af.js",
+    "main.css": "/Site/static/css/main.f6132b71.css",
+    "main.js": "/Site/static/js/main.e8832658.js",
     "static/js/787.32e1ec3b.chunk.js": "/Site/static/js/787.32e1ec3b.chunk.js",
     "static/media/matchHistory.gif": "/Site/static/media/matchHistory.72249aa19b3b7b9c6981.gif",
     "static/media/champSearch.gif": "/Site/static/media/champSearch.59fbb0bcf630af096710.gif",
@@ -9,15 +9,18 @@
     "static/media/login.gif": "/Site/static/media/login.3ec98ab673ad86dace6f.gif",
     "static/media/LeagueOfInfo.gif": "/Site/static/media/LeagueOfInfo.988565fdf0e9e67aef4d.gif",
     "static/media/userDetails.gif": "/Site/static/media/userDetails.b1672947c5bc42d3f6eb.gif",
+    "static/media/create-reminders.gif": "/Site/static/media/create-reminders.caacf90a24132f5021e4.gif",
+    "static/media/deactivate-remove.gif": "/Site/static/media/deactivate-remove.08bc6eb50dd0dbe5228e.gif",
+    "static/media/start.gif": "/Site/static/media/start.cc70c94dfc40fcc35dbf.gif",
     "static/media/Me.jpg": "/Site/static/media/Me.5fdc6acd8d286e90c65a.jpg",
     "static/media/hexawhite.webp": "/Site/static/media/hexawhite.37835b4781c49bb46c37.webp",
     "index.html": "/Site/index.html",
-    "main.633f1713.css.map": "/Site/static/css/main.633f1713.css.map",
-    "main.270b90af.js.map": "/Site/static/js/main.270b90af.js.map",
+    "main.f6132b71.css.map": "/Site/static/css/main.f6132b71.css.map",
+    "main.e8832658.js.map": "/Site/static/js/main.e8832658.js.map",
     "787.32e1ec3b.chunk.js.map": "/Site/static/js/787.32e1ec3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.633f1713.css",
-    "static/js/main.270b90af.js"
+    "static/css/main.f6132b71.css",
+    "static/js/main.e8832658.js"
   ]
 }
