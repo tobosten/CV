@@ -17,7 +17,7 @@ function Work() {
                 <div style={{ margin: 10 }}>
                     <ProjectComponent
                         title="Action Priorities"
-                        src={{}}
+                        /* src={{}} */
                         link={"/actionpriorities"}
                     />
                 </div>
