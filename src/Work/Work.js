@@ -6,11 +6,22 @@ function Work() {
     return (
         <div>
             <div className='projectContainer'>
-                <ProjectComponent
-                    title="League of Info"
-                    src={require("../assets/LeagueOfInfo.gif")}
-                    link={"/leagueofinfo"}
-                />
+                <div style={{ margin: 10 }}>
+                    <ProjectComponent
+                        title="League of Info"
+                        src={require("../assets/LeagueOfInfo.gif")}
+                        link={"/leagueofinfo"}
+                    />
+                </div>
+
+                <div style={{ margin: 10 }}>
+                    <ProjectComponent
+                        title="Action Priorities"
+                        src={{}}
+                        link={"/actionpriorities"}
+                    />
+                </div>
+
             </div>
         </div>
     )

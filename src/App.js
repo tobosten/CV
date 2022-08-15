@@ -7,6 +7,7 @@ import Work from './Work/Work';
 
 /* Projects */
 import LeagueOfInfo from './LeagueOfInfo/LeagueOfInfo';
+import ActionPriorities from './ActionPriorities/ActionPriorities';
 
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
 
           <Route path="/leagueofinfo">
             <LeagueOfInfo />
+          </Route>
+
+          <Route path="/actionpriorities">
+            <ActionPriorities />
           </Route>
         </Switch>
       </div>
