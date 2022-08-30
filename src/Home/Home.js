@@ -3,6 +3,8 @@ import "./Home.css"
 import Background from "../assets/HomeBackground/hexawhite.webp"
 
 function Home() {
+
+    /* Test */
     return (
         <div className='homeMainContainer' style={{ /*  backgroundImage: `url(${Background})` */  }}>
             <div className='homeInfoContainer'>
